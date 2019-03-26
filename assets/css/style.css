@@ -217,3 +217,23 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  #main-container {
+    background-color: #000;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  #main-container {
+    background-color: #333;
+  }
+
+}
+@media screen and (max-width: 640px) {
+  #main-container {
+    background-color: #cc00cc;
+
+  }
+
+}
